@@ -6,6 +6,8 @@ public class TestClass {
 		// TODO Auto-generated method stub
 
 		System.out.println("Update branch ");
+		System.out.println("Update branch 1 ");
+		System.out.println("Update branch 2");
 	}
 
 }
