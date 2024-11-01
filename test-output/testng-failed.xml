@@ -1,26 +1,26 @@
 
 <suite name="Failed suite [Suite]">
-  <test thread-count="5" name="Smoke Testing(failed)">
+  <test thread-count="5" name="SmokeTest(failed)">
+   
     <groups>
       <run>
         <include name="Smoke"/>
       </run>
     </groups>
+    
+    
     <classes>
-     
       <class name="com.Hrms.tests.TestPIMPage">
       
       
         <methods>
-          <include name="deleteEmployee"/>
+          <include name="viewEmployeeList"/>
         </methods>
         
         
       </class> <!-- com.Hrms.tests.TestPIMPage -->
-      
-      
-      
-      
     </classes>
-  </test> <!-- Smoke Testing(failed) -->
+    
+    
+  </test> <!-- SmokeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

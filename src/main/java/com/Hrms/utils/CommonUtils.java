@@ -160,7 +160,8 @@ public class CommonUtils{
 		}
 	}
 	
-	//method creates an XPath locator to find an element on the web page based on its visible text.
+	//method creates an XPath locator to find an element on the web page based 
+	//on its visible text.
 	
 	public static By getCommonLocatorUsingText(String value) throws Exception {
 		By by = null;
